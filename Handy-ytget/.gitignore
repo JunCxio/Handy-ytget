@@ -1,0 +1,6 @@
+/src-tauri/target/
+/src-tauri/gen/
+/windows/tools/
+/windows/downloads/
+/windows/Handy-ytget.exe
+/windows/WebView2Loader.dll

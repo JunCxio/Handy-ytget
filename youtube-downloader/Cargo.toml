@@ -1,0 +1,13 @@
+[package]
+name = "ytget"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.74"
+description = "输入链接即可下载 YouTube 视频的命令行工具"
+license = "MIT"
+
+[profile.release]
+strip = true
+lto = true
+codegen-units = 1
+panic = "abort"

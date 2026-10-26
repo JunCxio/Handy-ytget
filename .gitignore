@@ -1,0 +1,9 @@
+**/target/
+**/gen/
+**/downloads/
+**/.ytget/
+**/windows/tools/
+**/windows/*.exe
+**/windows/*.dll
+*.zip
+*.zip.sha256
