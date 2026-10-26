@@ -33,7 +33,7 @@ fn packages() -> Vec<Package> {
 fn client() -> Result<Client, String> {
     Client::builder()
         .https_only(true)
-        .user_agent("Handy-ytget/0.3.1")
+        .user_agent("Handy-ytget/0.3.2")
         .connect_timeout(Duration::from_secs(20))
         .read_timeout(Duration::from_secs(30))
         .timeout(Duration::from_secs(900))

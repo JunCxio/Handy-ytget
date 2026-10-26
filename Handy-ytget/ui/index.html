@@ -27,7 +27,7 @@
       <div id="error" class="error" role="alert" hidden></div><details class="logs"><summary>运行日志</summary><pre id="logs">暂无运行记录。</pre></details>
     </section>
   </main>
-  <footer><span id="tools-status">正在检查下载组件…</span><span id="close-note">支持断点续传，取消后可重新开始下载。</span><span>v0.3.1</span></footer>
+  <footer><span id="tools-status">正在检查下载组件…</span><span id="close-note">支持断点续传，取消后可重新开始下载。</span><span>v0.3.2</span></footer>
 </div>
 <dialog id="settings-dialog" aria-labelledby="settings-title"><div class="dialog-heading"><h2 id="settings-title">设置</h2><button id="close-settings" class="button icon-only" type="button" aria-label="关闭设置"><svg aria-hidden="true"><use href="#i-close"/></svg></button></div><div class="settings-row"><h3>保存位置</h3><p id="settings-path" class="settings-path"></p><p>点击主界面的“选择目录”可更改文件夹，关闭后仍会保留。</p></div><div class="settings-row"><h3>下载组件</h3><p id="settings-tools">正在读取…</p><p>缺失组件会在启动时自动下载并校验，失败后可重试。已安装的组件和便携包自带组件会直接使用。</p><div class="update-actions"><button id="check-updates" class="button" type="button">检查更新</button><button id="update-tools" class="button primary" type="button" hidden>更新组件</button></div><p id="update-result" role="status" aria-live="polite"></p><p>下载来源：yt-dlp、Deno 官方发布页，以及 Gyan 的 FFmpeg 构建。</p></div><div class="settings-row"><h3>使用范围</h3><p>支持普通视频、Shorts 和已结束的直播。每次下载一个视频，当前版本不读取浏览器登录信息。</p></div></dialog>
 </body>

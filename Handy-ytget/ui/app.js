@@ -91,7 +91,8 @@
       if (group.children.length) $('subtitle-language').append(group);
     }
     if (tracks.length) {
-      const preferred = tracks.findIndex(track => !track.automatic && track.language.startsWith('zh'));
+      let preferred = tracks.findIndex(track => !track.automatic && /^en(?:-|$)/i.test(track.language));
+      if (preferred < 0) preferred = tracks.findIndex(track => /^en(?:-|$)/i.test(track.language));
       $('subtitle-language').value = String(preferred >= 0 ? preferred : 0);
     }
   }
